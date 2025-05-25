@@ -49,4 +49,8 @@ c = a + b
 print(c) # This will print the concatenation of two strings
 c = int(a) + int(b)
 print(c) # This will print the sum of two integers after converting strings to integers
+a = "aryan"
+for char in a:
+    print(char)
+
 
