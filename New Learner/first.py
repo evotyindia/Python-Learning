@@ -52,5 +52,42 @@ print(c) # This will print the sum of two integers after converting strings to i
 a = "aryan"
 for char in a:
     print(char)
+    a = "aryan is a good boy."
+    print(len(a))
+    print(a[0:5])
+print(a[0:-15])
+a= "aryan"
+a = a.upper()
+print(a) # This will print the string in uppercase
+b = " mum !! mmy !!"
+b = b.strip(" !") # This will remove leading and trailing spaces
+print(b) # This will print the string after removing leading and trailing spaces
+c = "Silver is a Spoon"
+print(c)
+c = c.replace("Sp", "M") # This will replace "Sp" with "M"
+print(c)
+print(c.count("Silver"))
+print(c.endswith("Moon"))
+print(c.endswith("is", 0 , 9))
+age = int(input("How old are you? "))
+if age < 18:
+    print("You are a minor.")
+    print("You cannot vote.")
+    print("You cannot drive.")
+else:
+    print("You are a major.")
+    print("You can vote.")
+    print("You can drive.")
+
+    n = int(input("Enter a number: "))
+    if n< 0:
+        print("The number is negative.")
+    elif n == 0:
+        print("The number is zero.")
+    elif n > 0:
+        print("The number is positive.")
+    else:
+        print("Invalid input.")
+
 
 
